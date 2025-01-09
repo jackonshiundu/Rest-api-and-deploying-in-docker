@@ -1,4 +1,4 @@
 export default {
   port: 1337,
-  dbUri: "mongodb://localhost:27017/rest-api-tutorial",
+  dbUri: "mongodb://jackon:jackon@127.0.0.1:27017/rest-api",
 };
