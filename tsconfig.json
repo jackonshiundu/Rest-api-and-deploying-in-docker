@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Sets the target JavaScript version (you can change it to ES6 or another version if needed)
+    "module": "NodeNext", // Ensure module is set to NodeNext
+    "moduleResolution": "NodeNext", // This makes the module resolution strategy compatible with Node.js
+    "esModuleInterop": true, // Enables default imports from modules with no default export
+    "skipLibCheck": true, // Skip type checking of declaration files (useful for larger projects)
+    "strict": true, // Enables strict mode for more rigorous type checking
+    "outDir": "./dist", // Optional: specify the output directory for compiled JavaScript files
+    "rootDir": "./src", // Optional: specify the source directory of your TypeScript files
+    "resolveJsonModule": true, // Optional: allow importing JSON files as modules
+    "allowJs": true // Optional: allow JavaScript files in the project
+  },
+  "include": [
+    "src/**/*" // Include all TypeScript files in the "src" directory
+  ],
+  "exclude": [
+    "node_modules" // Exclude the "node_modules" directory
+  ]
+}
