@@ -9,9 +9,9 @@ const validate =
         query: req.query,
         params: req.params,
       });
-    } catch (error:any) {
-     return res.status(400).send(error.errors);
+    } catch (error: any) {
+      return res.status(400).send(error.errors);
     }
   };
 
-  export default validate
+export default validate;
